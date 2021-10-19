@@ -1,0 +1,86 @@
+.header-news{
+    background-size: cover;
+    background-image: url(/istockphoto-1303558491-170667a\ \(1\).jpg);
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-title{
+    display: flex;
+    color: rgb(222, 51, 112);
+    justify-content: center;
+}
+
+.wp-block-image size-large{
+    margin: 0;
+    width: 700px;
+    height: 400px;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: rgb(222, 51, 112);
+    color: white;
+}
+
+.date-box{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.date-box .day{
+    display: block;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    z-index: 100;
+    width: 60px;
+}
+
+.date-box .month{
+    display: block;
+    border-bottom-color: #de3370;
+    font-family: "Open Sans";
+    font-weight: 600;
+    padding: 7px 0 7px 0;
+    border-bottom: solid 3px #333;
+    text-align: center;
+    width: 60px;
+    z-index: 100;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pagination{
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
