@@ -1,47 +1,89 @@
-.header-news{
-    background-size: cover;
-    background-image: url(/istockphoto-1303558491-170667a\ \(1\).jpg);
+*{
+    box-sizing: border-box;
+}
 
+.header-news{
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container {
+    position: relative;
+    text-align: center;
 }
 .title{
-    display: flex;
-    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color:#eceff3;
 }
 
 .sub-title{
-    display: flex;
-    color: rgb(222, 51, 112);
-    justify-content: center;
+    position: relative;
+    text-align: center;
+    color:#de3370;
+    top: 40%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 5px;
 }
 
+.backg{
+    width: 100%;
+    height: 341px;
+    object-fit: cover;
+    /* opacity: 0.5 */
+}
+body{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
 .wp-block-image size-large{
-    margin: 0;
-    width: 700px;
-    height: 400px;
+    margin-bottom: 0;
+    width: 100%;
+    border: 0;
+    vertical-align: middle;
 }
 
 .button {
-    background-color: white;
-    border: 2px solid black;
-    text-align: center;
-    transition-duration: 0.4s;
-    text-decoration: none;
+    font-family: "Roboto Condensed";
+    font-size: 13px;
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
     display: inline-block;
-    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+
 }
 
 .button:hover {
+    background: transparent;
     background-color: rgb(222, 51, 112);
-    color: white;
+    color: black;
+    transition: .3s;
 }
 
 .date-box{
-    display: flex;
-    flex-direction: column;
- 
+    display: block;
+    width: 60px;
+    position: absolute;
+    text-align: center;
+    text-shadow: none;
+    margin-top: -30px;
 }
 
 .date-box .day{
+    color: white;
     display: block;
     font-weight: 600;
     font-size: 28px;
@@ -49,6 +91,7 @@
     text-align: center;
     z-index: 100;
     width: 60px;
+    background-color: #de3370;
 }
 
 .date-box .month{
@@ -57,30 +100,21 @@
     font-family: "Open Sans";
     font-weight: 600;
     padding: 7px 0 7px 0;
-    border-bottom: solid 3px #333;
+    border-bottom: solid 3px #de3370;
     text-align: center;
     width: 60px;
     z-index: 100;
 }
 
-.text-center{
-    text-align: center;
+.paragraph{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
 }
 
-.pagination{
-    display: inline-block;
-    padding-left: 0;
-    margin: 20px 0;
-    border-radius: 4px;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+.text-class{
+    padding-left: 80px;
 }
 
