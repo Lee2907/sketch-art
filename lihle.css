@@ -8,10 +8,6 @@
 	object-fit:cover;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-}
 .header-title{
     position: absolute;
 	top: 38%;
